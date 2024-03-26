@@ -1,0 +1,67 @@
+.feed {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    max-height: calc(100vh - 50px); /* Adjust based on your header size */
+    overflow-y: auto; /* Allows for scrolling */
+  }
+  
+  .jobPrepCard {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Separates the card from the posts */
+    margin-bottom: 20px;
+  }
+  
+  .jobPrepCard__image {
+    background-image: url('https://yukizhuyue.com/wp-content/uploads/2024/03/3.png');
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .jobPrepCard__info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .jobPrepCard__info p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .jobPrepCard__button {
+    /* Your button styles */
+  }
+  
+  .progressIndicator {
+    width: 100%;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .progressIndicator__bar {
+    height: 10px;
+    background-color: #4caf50;
+  }
+  
+  .progressIndicator__text {
+    font-size: 14px;
+  }
+  
+  .feed__posts {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .feed__pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+  }

@@ -1,0 +1,14 @@
+.embedPage {
+    background-color: #f3f2ef; /* Use the background color of your app */
+    height: 100vh; /* Full height to fill the screen */
+    width: 100%; /* Full width */
+  }
+  
+  .embedPage__content {
+    display: flex;
+    justify-content: center; /* Center the iframe horizontally */
+    align-items: center; /* Center the iframe vertically */
+    height: calc(100vh - 60px); /* Adjust height considering header's height */
+    padding: 30px; /* Add some padding around the iframe */
+  }
+  

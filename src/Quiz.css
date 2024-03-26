@@ -1,0 +1,41 @@
+.quiz {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz__imageContainer {
+    margin-bottom: 20px;
+  }
+  
+  .quiz__image {
+    width: 100%;
+    height: auto; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+    border-radius: 8px;
+  }
+  
+  .quiz__question h2 {
+    margin-bottom: 20px;
+  }
+  
+  .quiz__options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quiz__option {
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quiz__option input[type="radio"] {
+    margin-right: 10px;
+  }
+  

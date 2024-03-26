@@ -1,0 +1,61 @@
+.rightSidebar {
+    width: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rightSidebar__news,
+  .rightSidebar__ad {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .rightSidebar__news h2 {}
+  .rightSidebar__ad h3 {
+    margin-bottom: 10px;
+  }
+  
+  .rightSidebar__news ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    font-size:15px;
+    color: grey;
+  }
+  
+  .rightSidebar__news ul li {
+    margin-bottom: 13px;
+    margin-top: 13px;
+  }
+  
+  .rightSidebar__adImage {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .rightSidebar__adContent {
+    text-align: center;
+  }
+  
+  .rightSidebar__adButton {
+    background-color: #4b8c44; /* LinkedIn blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .rightSidebar__adButton:hover {
+    background-color: lightgrey; /* A darker LinkedIn blue on hover */
+  }
+  
+  /* Add responsive behavior or more styles as needed */
+  
